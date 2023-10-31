@@ -35,7 +35,7 @@ while True:
             extrato += 'Depósito: R${:.2f}\n'.format(valor)
 
         else:
-            print('\nO valor informado é inválido. Limite de depósito: R$500.00.\n')
+            print('\nO valor informado é inválido.\n')
             print('='*66)
 
     elif opcao == 'S':
